@@ -13,17 +13,13 @@ public class UIScaler : MonoBehaviour
     //[SerializeField] float panSpeed = 1f;
     Vector2 initPosition = Vector2.zero;
 
-    //Vector3 lastMousePosition;
-    //bool isPanning = false;
-
     // Update is called once per frame
     void Update()
     {
         HandleZoom();
-        //HandlePan();
     }
 
-    void HandleZoom()
+    private void HandleZoom()
     {
         float scroll = Input.GetAxis("Mouse ScrollWheel");
         if (scroll != 0)
@@ -38,27 +34,6 @@ public class UIScaler : MonoBehaviour
             puzzleContainer.localScale = newScale;
         }
     }
-
-    /*void HandlePan()
-    {
-        if(Input.GetMouseButtonDown(1))
-        {
-            isPanning = true;
-            lastMousePosition = Input.mousePosition;
-        }
-
-        if(Input.GetMouseButton(1) && isPanning)
-        {
-            Vector3 delta = Input.mousePosition - lastMousePosition;
-            puzzleContainer.anchoredPosition += new Vector2(delta.x, delta.y) * panSpeed;
-            lastMousePosition = Input.mousePosition;
-        }
-
-        if(Input.GetMouseButtonUp(1))
-        {
-            isPanning = false;
-        }
-    }*/
 
     public void ResetVoidZoom()
     {
