@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\CodeGym\\Project\\NonogramPuzzle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|e:\\codegym\\project\\nonogrampuzzle\\assets\\scripts\\levelselection\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselection\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|E:\\CodeGym\\Project\\NonogramPuzzle\\assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|E:\\CodeGym\\Project\\NonogramPuzzle\\assets\\scripts\\cluesuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +15,20 @@
       "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|e:\\codegym\\project\\nonogrampuzzle\\assets\\scripts\\levelselection\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselection\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|E:\\CodeGym\\Project\\NonogramPuzzle\\assets\\scripts\\levelselection\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselection\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|E:\\CodeGym\\Project\\NonogramPuzzle\\assets\\scripts\\cellbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cellbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|E:\\CodeGym\\Project\\NonogramPuzzle\\assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|E:\\CodeGym\\Project\\NonogramPuzzle\\assets\\scripts\\levelselection\\so_difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselection\\so_difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|E:\\CodeGym\\Project\\NonogramPuzzle\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|E:\\CodeGym\\Project\\NonogramPuzzle\\assets\\scripts\\levelselection\\so_level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselection\\so_level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|E:\\CodeGym\\Project\\NonogramPuzzle\\assets\\scripts\\levelselection\\so_difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselection\\so_difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|e:\\codegym\\project\\nonogrampuzzle\\assets\\scripts\\levelselection\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{558CD1CE-A75C-8017-8493-9D531D023E66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselection\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,82 +54,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "SO_Level.cs",
-              "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\SO_Level.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelection\\SO_Level.cs",
-              "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\SO_Level.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LevelSelection\\SO_Level.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T10:30:25.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelection\\LevelManager.cs",
-              "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LevelSelection\\LevelManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T13:44:32.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "NonogramPuzzle.cs",
               "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\NonogramPuzzle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NonogramPuzzle.cs",
               "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\NonogramPuzzle.cs",
               "RelativeToolTip": "Assets\\Scripts\\NonogramPuzzle.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAqwGAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T14:16:30.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UIScaler.cs",
               "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\UIScaler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIScaler.cs",
               "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\UIScaler.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIScaler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T06:49:27.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwJ8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:41:28.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SO_Difficulty.cs",
               "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\SO_Difficulty.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelection\\SO_Difficulty.cs",
               "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\SO_Difficulty.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelSelection\\SO_Difficulty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T13:23:24.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CellButton.cs",
               "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\CellButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CellButton.cs",
               "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\CellButton.cs",
               "RelativeToolTip": "Assets\\Scripts\\CellButton.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwEwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T14:19:41.886Z",
               "EditorCaption": ""
@@ -142,61 +129,74 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CluesUIManager.cs",
               "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\CluesUIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\CluesUIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T14:03:36.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAIA4wCMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:41:28.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GridManager.cs",
               "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\GridManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GridManager.cs",
               "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\GridManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GridManager.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAqwLkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAswGUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T10:23:42.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Menu.cs",
               "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
               "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\Menu.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T13:23:35.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "LevelLoader.cs",
               "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\LevelLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelection\\LevelLoader.cs",
               "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\LevelLoader.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelSelection\\LevelLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T13:32:08.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelection\\LevelManager.cs",
+              "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelSelection\\LevelManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwHYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:44:32.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SO_Level.cs",
+              "DocumentMoniker": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\SO_Level.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelection\\SO_Level.cs",
+              "ToolTip": "E:\\CodeGym\\Project\\NonogramPuzzle\\Assets\\Scripts\\LevelSelection\\SO_Level.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelSelection\\SO_Level.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T10:30:25.982Z",
               "EditorCaption": ""
             }
           ]

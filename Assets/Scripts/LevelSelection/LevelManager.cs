@@ -25,8 +25,16 @@ public class LevelManager : MonoBehaviour
     [SerializeField] Button backToMenu;
     [SerializeField] Button backToDifficulty;
 
+
+    // Sets up button click listeners and initial UI states
     void Start()
     {
+        // CLEAR ALL FIRST
+        foreach (Transform child in difficultyHolder)
+        {
+            Destroy(child.gameObject);
+        }
+
         // IF EXIT BUTTON IS CLICKED
         if (backToMenu != null)
             backToMenu.onClick.AddListener(ExitToMenu);
@@ -34,12 +42,6 @@ public class LevelManager : MonoBehaviour
         // BACK TO DIFFICULTY
         if (backToDifficulty != null)
             backToDifficulty.onClick.AddListener(BackToDifficulty);
-
-        // CLEAR ALL FIRST
-        foreach (Transform child in difficultyHolder)
-        {
-            Destroy(child.gameObject);
-        }
 
         // Initially, show the difficulties panel and hide the levels panel.
         if (difficultyPanel != null)
@@ -56,6 +58,7 @@ public class LevelManager : MonoBehaviour
         FillDifficultyButtons();
     }
 
+    // Clears existing difficulty buttons and creates new ones for each difficulty
     void FillDifficultyButtons()
     {
         // CLEAR ALL FIRST
@@ -64,7 +67,7 @@ public class LevelManager : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        // FILL LEVEL
+        // FILL DIFFICULTY
         foreach (var difficulty in allDifficulties)
         {
             GameObject newButton = Instantiate(difficultyPrefab, difficultyHolder, false);
@@ -79,6 +82,8 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+
+    // Hides the difficulty panel, shows the level panel, toggles back buttons, and fills the level buttons for that difficulty
     void OnDifficultyClicked(SO_Difficulty difficulty)
     {
         // Hide the difficulties panel and show the levels panel.
@@ -96,6 +101,7 @@ public class LevelManager : MonoBehaviour
         FillLevelButtons(difficulty);
     }
 
+    // Clears existing level buttons and instantiates new level buttons for the selected difficulty
     void FillLevelButtons(SO_Difficulty difficulty)
     {
         // CLEAR ALL FIRST
@@ -119,6 +125,7 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    // Loads the selected level’s puzzle from JSON
     void LoadLevel(SO_Level level)
     {
         NonogramPuzzle loadedPuzzle = JsonUtility.FromJson<NonogramPuzzle>(level.levelToLoad.text);

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -38,6 +39,8 @@ public class GridManager : MonoBehaviour
         instance = this;
     }
 
+
+    // Creates a new puzzle, generates the grid, and sets the grid layout constraints
     void Start()
     {
         // New Puzzle
@@ -48,6 +51,7 @@ public class GridManager : MonoBehaviour
         gridParent.GetComponent<GridLayoutGroup>().constraintCount = columns;
     }
 
+    // Clears the level name, creates a new puzzle, and regenerates the grid
     public void ResetPuzzle()
     {
         // New Puzzle
@@ -59,6 +63,7 @@ public class GridManager : MonoBehaviour
         gridParent.GetComponent<GridLayoutGroup>().constraintCount = columns;
     }
 
+    // Clears any existing grid and clue objects, then instantiates cell buttons and placeholder row/column clue
     void GenerateGrid()
     {
         // Clear all
@@ -109,6 +114,7 @@ public class GridManager : MonoBehaviour
         }
     }
 
+    // Recalculates and updates the clues when a cell’s state changes
     public void OnCellStateChanged()
     {
         // Regenerate Clue
@@ -118,6 +124,7 @@ public class GridManager : MonoBehaviour
         CluesUIManager.instance.UpdateClues(puzzle);
     }
 
+    // Loops through each row/column of the solution grid to compute clue numbers using GetCluesForLine()
     void GenerateClues()
     {
         int rows = puzzle.SolutionData.GetLength(0);
@@ -136,11 +143,13 @@ public class GridManager : MonoBehaviour
         }
     }
 
+    // Scans a row or column for contiguous filled cells and returns a list of counts (or 0 if empty)
     List<int> GetCluesForLine(int[,] gridData, int index, bool isRow)
     {
         List<int> clues = new List<int>();
         int count = 0;
 
+        // Gets the number of cells in the line: for a row, the number of columns; for a column, the number of rows
         int length = isRow ? gridData.GetLength(1) : gridData.GetLength(0);
         for (int i = 0; i < length; i++)
         {
@@ -149,7 +158,8 @@ public class GridManager : MonoBehaviour
             {
                 count++;
             }
-            else if(count > 0)
+            // If the cell is empty and count is positive, adds the current count to clues and resets count
+            else if (count > 0)
             {
                 clues.Add(count);
                 count = 0;
@@ -157,7 +167,8 @@ public class GridManager : MonoBehaviour
         }
 
         //if there is a left over clue
-        if(count > 0)
+        // After the loop, if there’s a remaining block of filled cells(i.e.count > 0), adds it to clues
+        if (count > 0)
         {
             clues.Add(count);
         }
@@ -172,6 +183,7 @@ public class GridManager : MonoBehaviour
     }
 
     // ----- Saving and Loading Puzzle -----
+    // Scans a row or column for contiguous filled cells and returns a list of counts (or 0 if empty)
     public void SavePuzzle() // Called from Button
     {
         if(string.IsNullOrEmpty(levelNameInput.text))

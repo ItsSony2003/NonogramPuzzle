@@ -19,6 +19,7 @@ public class UIScaler : MonoBehaviour
         HandleZoom();
     }
 
+    // Scroll mouse to zoom in or out a puzzle
     private void HandleZoom()
     {
         float scroll = Input.GetAxis("Mouse ScrollWheel");

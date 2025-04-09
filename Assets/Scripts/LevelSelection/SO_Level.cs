@@ -10,6 +10,9 @@ public class SO_Level : ScriptableObject
     public string levelSize; //5x5, 6x6
     public TextAsset levelToLoad;
 
+
+    // Stores the level's name, size, and JSON data,
+    // automatically updates the name and size when edited in the Unity Editor
     private void OnValidate()
     {
         if(levelToLoad != null)

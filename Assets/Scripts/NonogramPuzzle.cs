@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [System.Serializable]
@@ -26,6 +27,7 @@ public class NonogramPuzzle
         RowClues = new CluesWrapper[rows];
         ColClues = new CluesWrapper[cols];
 
+        // Creates and initializes arrays for row and column clue
         for (int i = 0; i < rows; i++)
         {
             RowClues[i] = new CluesWrapper();
@@ -36,7 +38,7 @@ public class NonogramPuzzle
             ColClues[i] = new CluesWrapper();
         }
 
-        // Init Empty Grid
+        // Init Empty Grid for both the player's grid (GridData) and the correct solution (SolutionData)
         GridData = new int[rows, cols];
         SolutionData = new int[rows, cols];
     }
@@ -46,6 +48,8 @@ public class NonogramPuzzle
     [System.NonSerialized]
     int[,] solutionData;
 
+
+    // creates and returns a 2D grid of size Rows×Cols
     public int[,] GridData
     {
         get
@@ -63,13 +67,18 @@ public class NonogramPuzzle
         }
     }
 
+
+    // gets/sets the 2D solution grid. On get, it lazily builds the grid from a 1D flattened array
+    // on set, it updates the flattened array to match the new grid
     public int[,] SolutionData
     {
         get
         {
+            // If solutionData is null, it creates a new 2D array of size Rows×Cols
             if (solutionData == null)
             {
                 solutionData = new int[Rows, Cols];
+                // It then fills each cell by converting the 1D index from SolutionFlatGridData into 2D indices (using r * Cols + c)
                 for (int r = 0; r < Rows; r++)
                 {
                     for (int c = 0; c < Cols; c++)
@@ -82,6 +91,9 @@ public class NonogramPuzzle
         }
         set
         {
+            // 1. Assigns the provided 2D array to solutionData
+            // 2. Rebuilds the flattened array (SolutionFlatGridData) by iterating over the 2D array
+            // and storing each value at the corresponding 1D index (r * Cols + c)
             solutionData = value;
             SolutionFlatGridData = new int[Rows * Cols];
             for (int r = 0; r < Rows; r++)

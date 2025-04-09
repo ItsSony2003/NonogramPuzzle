@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.Collections.LowLevel.Unsafe;
 
 public class GameManager : MonoBehaviour
 {
@@ -53,6 +54,7 @@ public class GameManager : MonoBehaviour
         LoadCurrentPuzzle();
     }
 
+    // Loads the puzzle, call GeneratePuzzle
     void LoadCurrentPuzzle()
     {
         puzzle = LoadPuzzle();
@@ -63,6 +65,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // Reads a puzzle’s JSON data and converts it into a NonogramPuzzle object.
     NonogramPuzzle LoadPuzzle()
     {
         if(LevelLoader.CurrentPuzzle != null)
@@ -170,6 +173,7 @@ public class GameManager : MonoBehaviour
             winPanel.SetActive(true);
     }
 
+    // Loads the level selection scene
     void LevelSelect()
     {
         SceneManager.LoadScene("LoadLevel");

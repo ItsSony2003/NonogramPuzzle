@@ -14,6 +14,7 @@ public class CluesUIManager : MonoBehaviour
         instance = this;
     }
 
+    // Update UI Clues for Player to see
     public void UpdateClues(NonogramPuzzle puzzle)
     {
         // Update Rows
